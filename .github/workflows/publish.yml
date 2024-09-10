@@ -1,8 +1,9 @@
-name: Build and Deploy
+name: hosting firebase
 on:
   push:
-    branches:
-      - master
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
