@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "teinviteok"
+  },
+  "targets":{
+    "teinviteok":{
+      "hosting":{
+        "invitacion_n_y_a":[
+          "invitacion_n_y_a"
+        ]
+      }
+    }
   }
 }
